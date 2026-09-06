@@ -15,7 +15,7 @@ def pendiente():
 def listar_catalogo():
     print("\n=== Catálogo de canciones ===")
     for cancion in catalogo:
-        print(f"- {cancion.titulo} — {cancion.artista} ({cancion.album})")
+        print(f"- {cancion.titulo} — {cancion.artista} ({cancion.genero})")
 
 
 def mostrar_menu():
